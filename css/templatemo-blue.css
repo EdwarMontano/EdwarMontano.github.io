@@ -17,11 +17,12 @@ html, body {
 html {
     -webkit-font-smoothing: antialiased;
 }
+p{text-align: justify;}
 
 h1 {font-size:40px;}
 h2 {font-size:36px;}
 h3 {font-size:30px;}
-h4 {font-size:24px;}
+h4 {font-size:24px;color: #FFB32C;}
 h5 {font-size:20px;}
 h6 {font-size:18px;}
 
@@ -31,8 +32,8 @@ h2 {
 
 .accent {
   font-family: 'Proxima Bold';
-  line-height: 14px;
-  color: #60A9F0;
+  line-height: 1em;
+  color: #FFB32C;;
 }
 
 .bold {
@@ -148,6 +149,14 @@ header {
 }
 header img {
   display: inline-block !important;
+  image: cover;
+  width: 20vh;
+  max-width: 25vh;
+  min-width: 25%;
+  height: 20vh;
+}
+header img:hover {
+  box-shadow: 0 0 1vh 1vh #FFB32C ;
 }
 header h2 {
   padding-top: 40px;
@@ -173,12 +182,12 @@ header hr {
   height: 4px;
 }
 .skills .progress .progress-bar-primary {
-  background: #204090;
+  background: #FFB32C;
 }
 .skills strong {
   display: inline-block;
   font-weight: normal;
-  padding-bottom: 6px;
+  padding-bottom: 2vh;
 }
 
 /* education section */
@@ -187,7 +196,7 @@ header hr {
   color: #f5f5f5;
 }
 .education .education-content {
-  padding-bottom: 14px;
+  padding-bottom: 2vh;
 }
 .education h5 {
   display: inline-block;
@@ -212,7 +221,9 @@ header hr {
 /* contact section */
 .contact {
   background: #fff;
- box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+  box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+  width: 100%;
+  text-align: center;
 }
 .contact .fa {
   padding-right: 6px;
@@ -224,7 +235,7 @@ header hr {
   color: #f5f5f5;
 }
 .experience .experience-content {
-  padding-bottom: 14px;
+  padding-bottom: 2vh;
 }
 .experience h5 {
   display: inline-block;
@@ -234,12 +245,15 @@ header hr {
   padding-left: 20px;
 }
 
-/* footer section */
+/* ter section */
 footer {
-  color: #f9f9f9;
+  color: #000000;
   text-align: center;
-  padding-top: 140px;
-  padding-bottom: 100px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  
+ 
+  
 }
 
 /* social icon section */
