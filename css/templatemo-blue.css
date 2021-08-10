@@ -17,6 +17,7 @@ html, body {
 html {
     -webkit-font-smoothing: antialiased;
 }
+.container{height:100%}
 p{text-align: justify;}
 
 h1 {font-size:40px;}
@@ -55,13 +56,14 @@ h2 {
 
 .white {
   color: #fff;
+  height:100%
 }
 
 .about,.skills,
 .education,.languages,
 .contact, .experience {
   padding: 40px;
-  min-height: 330px;
+  min-height: 30vh;
 }
 
 .education, .languages,
